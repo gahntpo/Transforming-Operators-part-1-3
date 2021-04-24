@@ -15,18 +15,20 @@ This is part of an Youtube tutorial series. You can watch:
 
 ##  Demonstration of Transforming operators - Part 1
 
-using map, tryMap, compactMap and decode
+using map, tryMap, compactMap and decode in **QuoteFetcher**
 
    ![](images/MapOperators.png)
 
 
 ##  Nested Publisher streams with switchToLatest - Part 2
-- fetching images with URLSession dataTaskPublisher
+
+- fetching images with URLSession dataTaskPublisher in **ImageFetcher**
 
    ![](images/SwitchToLatest.png)
 
 
-## Demonstration of flatMap and error handling in ImageCollectionView and ImageCollectionFetcher
+## Demonstration of flatMap and error handling - Part 3
+- files ImageCollectionView and **ImageCollectionFetcher**
 - nested publisher streams with flatMap
 - fetching images with URLSession dataTaskPublisher
 - error handling with 
