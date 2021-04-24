@@ -31,6 +31,6 @@ using map, tryMap, compactMap and decode in **QuoteFetcher**
 - files ImageCollectionView and **ImageCollectionFetcher**
 - nested publisher streams with flatMap
 - fetching images with URLSession dataTaskPublisher
-- error handling with 
+- error handling with setFailureType(to), mapError, replaceError and retry
 
    ![](images/Flatmap.png)
