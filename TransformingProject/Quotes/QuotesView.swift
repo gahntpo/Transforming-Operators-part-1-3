@@ -1,5 +1,5 @@
 //
-//  QutoesView.swift
+//  QuotesView.swift
 //  TransformingProject
 //
 //  Created by Karin Prater on 17.04.21.

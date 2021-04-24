@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173D4D6F26340522007D8F35 /* OperatorOverview.png in Resources */ = {isa = PBXBuildFile; fileRef = 173D4D6E26340522007D8F35 /* OperatorOverview.png */; };
+		173D4D7226340608007D8F35 /* MapOperators.png in Resources */ = {isa = PBXBuildFile; fileRef = 173D4D7126340608007D8F35 /* MapOperators.png */; };
+		173D4D7526340625007D8F35 /* SwitchToLatest.png in Resources */ = {isa = PBXBuildFile; fileRef = 173D4D7426340625007D8F35 /* SwitchToLatest.png */; };
+		173D4D7826340636007D8F35 /* Flatmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 173D4D7726340636007D8F35 /* Flatmap.png */; };
 		175F9738262B2CF200665951 /* APIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175F9737262B2CF200665951 /* APIResources.swift */; };
 		1781BFF6262AE094005E5A85 /* TransformingProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781BFF5262AE094005E5A85 /* TransformingProjectApp.swift */; };
 		1781BFF8262AE094005E5A85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781BFF7262AE094005E5A85 /* ContentView.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173D4D6E26340522007D8F35 /* OperatorOverview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OperatorOverview.png; sourceTree = "<group>"; };
+		173D4D7126340608007D8F35 /* MapOperators.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapOperators.png; sourceTree = "<group>"; };
+		173D4D7426340625007D8F35 /* SwitchToLatest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchToLatest.png; sourceTree = "<group>"; };
+		173D4D7726340636007D8F35 /* Flatmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flatmap.png; sourceTree = "<group>"; };
 		175F9737262B2CF200665951 /* APIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResources.swift; sourceTree = "<group>"; };
 		1781BFF2262AE094005E5A85 /* TransformingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1781BFF5262AE094005E5A85 /* TransformingProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingProjectApp.swift; sourceTree = "<group>"; };
@@ -55,10 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173D4D6C263404B6007D8F35 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				173D4D7126340608007D8F35 /* MapOperators.png */,
+				173D4D6E26340522007D8F35 /* OperatorOverview.png */,
+				173D4D7426340625007D8F35 /* SwitchToLatest.png */,
+				173D4D7726340636007D8F35 /* Flatmap.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1781BFE9262AE094005E5A85 = {
 			isa = PBXGroup;
 			children = (
 				1781BFF4262AE094005E5A85 /* TransformingProject */,
+				173D4D6C263404B6007D8F35 /* images */,
 				1781BFF3262AE094005E5A85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -185,9 +205,13 @@
 			files = (
 				1781BFFD262AE096005E5A85 /* Preview Assets.xcassets in Resources */,
 				1781BFFA262AE096005E5A85 /* Assets.xcassets in Resources */,
+				173D4D7526340625007D8F35 /* SwitchToLatest.png in Resources */,
+				173D4D7826340636007D8F35 /* Flatmap.png in Resources */,
 				1781C00A262AE1A5005E5A85 /* quote1.json in Resources */,
+				173D4D6F26340522007D8F35 /* OperatorOverview.png in Resources */,
 				1781C009262AE1A5005E5A85 /* quote2.json in Resources */,
 				1781C00B262AE1A5005E5A85 /* quote3.json in Resources */,
+				173D4D7226340608007D8F35 /* MapOperators.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
